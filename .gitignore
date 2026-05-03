@@ -1,6 +1,6 @@
 # Dependencias de Node.js
 node_modules/
-pnpm-lock.yaml
+.pnpm-store/
 package-lock.json
 yarn.lock
 

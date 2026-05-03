@@ -1,17 +1,75 @@
-# 📚 Mis Presentaciones con Slidev
+# Mis Presentaciones con Slidev
 
-Repositorio para almacenar todas mis presentaciones creadas con [Slidev](https://sli.dev/).
+Repositorio publico para organizar, versionar y compartir presentaciones creadas con [Slidev](https://sli.dev/).
 
-## 📂 Estructura
+## Presentaciones disponibles
 
-Cada carpeta corresponde a una presentación independiente. Por ejemplo:
+| Presentacion | Tema | Duracion estimada | Estado |
+| --- | --- | --- | --- |
+| [Pilares de la IA](./Pilares_de_la_IA) | Los 5 pilares de la IA que todo lider debe dominar | 45 min | Disponible |
 
-- `presentacion-1/`: Mi primera presentación.
-- `presentacion-2/`: Taller de Vue.js.
+## Estructura
 
-## 🚀 Cómo usar
+Cada carpeta contiene una presentacion independiente con sus dependencias, configuracion y archivo principal `slides.md`.
 
-1. Clona este repositorio:
+```text
+presentaciones/
+├── Pilares_de_la_IA/
+│   ├── slides.md
+│   ├── package.json
+│   ├── pnpm-lock.yaml
+│   └── README.md
+└── README.md
+```
+
+## Requisitos
+
+- Node.js 20.19 o superior
+- pnpm 10 o superior
+
+## Como usar
+
+1. Clona el repositorio:
+
    ```bash
-   git clone https://github.com/yoseft7/presentaciones.git
+   git clone https://github.com/yosef7/presentaciones.git
+   cd presentaciones
    ```
+
+2. Entra a la presentacion que quieres ejecutar:
+
+   ```bash
+   cd Pilares_de_la_IA
+   ```
+
+3. Instala dependencias y levanta Slidev:
+
+   ```bash
+   pnpm install
+   pnpm run dev
+   ```
+
+4. Abre la URL local que muestra Slidev, normalmente <http://localhost:3030>.
+
+## Comandos utiles
+
+Desde la carpeta de cada presentacion:
+
+| Comando | Uso |
+| --- | --- |
+| `pnpm run dev` | Ejecuta la presentacion en modo desarrollo |
+| `pnpm run build` | Genera la version estatica en `dist/` |
+| `pnpm run export` | Exporta la presentacion con las opciones de Slidev |
+
+## Recomendacion para GitHub
+
+Para completar la ficha del repositorio en GitHub:
+
+- Description: `Presentaciones tecnicas y ejecutivas creadas con Slidev.`
+- Topics: `slidev`, `presentaciones`, `ia`, `typescript`, `vue`, `educacion`
+- Website: agrega aqui la URL publica cuando publiques una presentacion con Vercel, Netlify o GitHub Pages.
+
+## Autor
+
+Jose Arnulfo R. H.  
+GitHub: [@yosef7](https://github.com/yosef7)

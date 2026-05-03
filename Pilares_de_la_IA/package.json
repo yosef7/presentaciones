@@ -1,7 +1,11 @@
 {
-  "name": "slidev",
+  "name": "pilares-de-la-ia",
   "type": "module",
   "private": true,
+  "packageManager": "pnpm@10.33.0",
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "scripts": {
     "build": "slidev build",
     "dev": "slidev --open",
