@@ -1,0 +1,22 @@
+# Dependencias de Node.js
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Archivos generados por Slidev
+dist/
+.slidev/
+*.pdf
+*.pptx
+*.png
+
+# IDE y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
