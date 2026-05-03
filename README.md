@@ -61,6 +61,10 @@ Desde la carpeta de cada presentacion:
 | `pnpm run build` | Genera la version estatica en `dist/` |
 | `pnpm run export` | Exporta la presentacion con las opciones de Slidev |
 
+## Referencias
+
+Las referencias especificas de cada charla se documentan dentro de su carpeta. Para la presentacion actual, consulta [Pilares de la IA - Referencias](./Pilares_de_la_IA#referencias).
+
 ## Recomendacion para GitHub
 
 Para completar la ficha del repositorio en GitHub:

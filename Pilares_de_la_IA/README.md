@@ -44,3 +44,9 @@ La carpeta incluye configuracion base para:
 
 - [Vercel](./vercel.json)
 - [Netlify](./netlify.toml)
+
+## Referencias
+
+- Gartner. [Gartner Hype Cycle Identifies Top AI Innovations in 2025](https://www.gartner.com/en/newsroom/press-releases/2025-08-05-gartner-hype-cycle-identifies-top-ai-innovations-in-2025). Gartner Newsroom, 5 de agosto de 2025.
+- ISO. [ISO/IEC 42001:2023 - AI management systems](https://www.iso.org/standard/42001). Estandar internacional para establecer, implementar, mantener y mejorar un sistema de gestion de IA.
+- NIST. [Artificial Intelligence Risk Management Framework (AI RMF 1.0)](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10). Marco voluntario para gestionar riesgos y promover IA confiable y responsable.
