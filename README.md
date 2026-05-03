@@ -4,17 +4,15 @@ Repositorio publico para organizar, versionar y compartir presentaciones creadas
 
 ## Presentaciones disponibles
 
-| Presentacion | Tema | Duracion estimada | Estado |
-| --- | --- | --- | --- |
-| [Pilares de la IA](./Pilares_de_la_IA) | Los 5 pilares de la IA que todo lider debe dominar | 45 min | Disponible |
+Cada carpeta del repositorio corresponde a una presentacion independiente. Entra a la carpeta de una presentacion para ver su README, contenido, comandos y referencias propias.
 
 ## Estructura
 
-Cada carpeta contiene una presentacion independiente con sus dependencias, configuracion y archivo principal `slides.md`.
+Cada presentacion mantiene sus dependencias, configuracion y archivo principal `slides.md` dentro de su propia carpeta.
 
 ```text
 presentaciones/
-├── Pilares_de_la_IA/
+├── nombre_de_la_presentacion/
 │   ├── slides.md
 │   ├── package.json
 │   ├── pnpm-lock.yaml
@@ -36,10 +34,10 @@ presentaciones/
    cd presentaciones
    ```
 
-2. Entra a la presentacion que quieres ejecutar:
+2. Entra a la carpeta de la presentacion que quieres ejecutar:
 
    ```bash
-   cd Pilares_de_la_IA
+   cd nombre_de_la_presentacion
    ```
 
 3. Instala dependencias y levanta Slidev:
@@ -60,10 +58,6 @@ Desde la carpeta de cada presentacion:
 | `pnpm run dev` | Ejecuta la presentacion en modo desarrollo |
 | `pnpm run build` | Genera la version estatica en `dist/` |
 | `pnpm run export` | Exporta la presentacion con las opciones de Slidev |
-
-## Referencias
-
-Las referencias especificas de cada charla se documentan dentro de su carpeta. Para la presentacion actual, consulta [Pilares de la IA - Referencias](./Pilares_de_la_IA#referencias).
 
 ## Recomendacion para GitHub
 
